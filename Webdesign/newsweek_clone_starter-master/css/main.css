@@ -1,0 +1,49 @@
+.column {
+    border: 2px solid grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #192A53;
+    color: #f2f2f2;
+}
+.img-sizelg {
+    width: 100%;
+}
+
+.img-sizexs {
+
+    width: 50%;
+}
+.h1-info {
+    color: red;
+}
+.text-center {
+    postion: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+img {
+    position: relative;
+}
+li {
+    list-style: square;
+}
+
+@media screen and (min-width: 768px) {
+    .ul-fontsize {
+        font-size:10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ul-fontsize {
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ul-fontsize {
+        font-size:20px;
+    }
+}
